@@ -1,0 +1,21 @@
+# Formato general de cómo se ordenan las cosas
+format = """
+$directory$git_branch
+$character"""
+
+# Diseño de las carpetas
+[directory]
+style = "bold magenta"
+format = "[✧ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# Diseño de la flecha de comando
+[character]
+success_symbol = "[🎀](bold magenta)"
+error_symbol = "[💔](bold red)"
+
+# Diseño de Git
+[git_branch]
+symbol = "🌸 "
+style = "bold purple"
